@@ -2,7 +2,12 @@
     <body>
         <div onclick="push('/app-vue')" style="cursor: pointer; color: red;">app-vue 超链接</div>
         <a href="/app-vue">app-vue 超链接</a>
+        <br/>
+        <div onclick="push('/app-nuxt')" style="cursor: pointer; color: red;">app-nuxt 超链接</div>
+        <a href="/app-nuxt">app-nuxt 超链接</a>
+        <br/>
         <div id="container-vue">container vue</div>
+        <div id="container-nuxt">container nuxt</div>
         <script>
             function push(subapp) { history.pushState(null, subapp, subapp) }
         </script>

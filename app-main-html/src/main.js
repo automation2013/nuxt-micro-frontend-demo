@@ -8,6 +8,12 @@ registerMicroApps([
         container: '#container-vue',
         activeRule: '/app-vue',
     },
+    {
+        name: 'vueNuxt',
+        entry: '//localhost:8002',
+        container: '#container-nuxt',
+        activeRule: '/app-nuxt',
+    },
 ]);
 
 // 启动 qiankun
