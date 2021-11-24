@@ -2,14 +2,15 @@
 v12.15.0
 
 
-## 工程启动
+## 工程启动(开三个终端单独启动)
 1、启动vue-cli创建的子工程 npm run serve-subapp-vue-cli
 2、启动nuxt-cli创建的子工程 npm run serve-subapp-nuxt-cli
 3、启动主工程 npm run serve-main-html
 
 ### 安装node-modules：
-1、cd ./app-subapp-vue-cli 切换目录，并运行 npm install
-2、cd ./app-subapp-nuxt-cli 切换目录，并运行 npm install
+1、cd ./app-main-html 切换目录，并运行 npm install
+2、cd ./app-subapp-vue-cli 切换目录，并运行 npm install
+3、cd ./app-subapp-nuxt-cli 切换目录，并运行 npm install
 
 ## 目录结构说明
 1、app-subapp-vue-cli：vue-cli创建的vue2工程
