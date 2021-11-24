@@ -1,0 +1,16 @@
+{
+  "name": "nuxt-micro-fronted-demo",
+  "version": "1.0.0",
+  "description": "v12.15.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-subapp-vue-cli": "cd app-subapp-vue-cli && npm run serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://devgit.datafountain.cn/wangxuebo/qiankun-demo-nuxt.git"
+  },
+  "author": "",
+  "license": "MIT"
+}
