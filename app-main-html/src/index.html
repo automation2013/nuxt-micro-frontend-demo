@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <div onclick="push('/app-vue')" style="cursor: pointer; color: red;">app-vue 超链接</div>
+        <a href="/app-vue">app-vue 超链接</a>
+        <div id="container-vue">container vue</div>
+        <script>
+            function push(subapp) { history.pushState(null, subapp, subapp) }
+        </script>
+    </body>
+</html>

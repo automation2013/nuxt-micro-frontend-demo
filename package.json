@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "serve-main-html": "cd app-main-html && npm run serve",
     "serve-subapp-vue-cli": "cd app-subapp-vue-cli && npm run serve"
   },
   "repository": {
