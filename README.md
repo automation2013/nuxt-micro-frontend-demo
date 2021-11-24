@@ -1,0 +1,1 @@
+# nuxt-micro-frontend-demo
