@@ -3,12 +3,13 @@ v12.15.0
 
 
 ## 工程启动
+1、启动vue-cli创建的子工程 npm run serve-subapp-vue-cli
+2、启动nuxt-cli创建的子工程 npm run serve-subapp-nuxt-cli
+3、启动主工程 npm run serve-main-html
 
 ### 安装node-modules：
 1、cd ./app-subapp-vue-cli 切换目录，并运行 npm install
-
-### 安装node-modules：
-
+2、cd ./app-subapp-nuxt-cli 切换目录，并运行 npm install
 
 ## 目录结构说明
 1、app-subapp-vue-cli：vue-cli创建的vue2工程
@@ -24,7 +25,7 @@ v12.15.0
 
 ### 对于子工程（sub-app）:
 1、nuxt工程用cli工具创建就行
-2、nuxt工程必须是single-spa模式，即：cli创建工程时直接选择spa模式，或者nuxt.config.js中”mode”字段设置为“spa”
+2、nuxt工程必须是single-spa模式，即：cli创建工程时直接选择spa模式，或者nuxt.config.js中”mode”字段设置为“spa”或者设置"ssr"字段
 3、对应文档1中的module配置，配置成：  modules: ['@femessage/nuxt-micro-frontend']   即可
 4、nuxt工程中配置”MFE”字段，配置的方法是将git上nuxt-micro-frontend 工程下载，参考examples文件夹下的工程中配置即可，不要忘了拷贝示例中的mfe.js文件(和nuxt.config.js文件层级相同)
 5、nuxt.config.js文件中记得配置http的返回header，通过build字段设置，方法试了很多，只有这一种配置可以：
