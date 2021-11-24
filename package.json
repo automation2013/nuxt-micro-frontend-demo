@@ -13,5 +13,8 @@
     "url": "http://devgit.datafountain.cn/wangxuebo/qiankun-demo-nuxt.git"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "create-nuxt-app": "^3.7.1"
+  }
 }
